@@ -4,19 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Calafate</title>
 </head>
+
 <body>
-    <nav>
-        <li>
-            <a href="../index.html">INICIO</a>
-        </li>
-        <li>
-            <a href="./nosotros.html">NOSOTROS</a>
-        </li>
-        <li>
-            <a href="./contacto.html">CONTACTO</a>
-        </li>
-    </nav>
+    <header>
+        <nav class="navbar">
+            <ul class="navbar_list">
+                <li class="navbar_item">
+                    <a class="navbar_link" href="../index.html">INICIO</a>
+                </li>
+                <li class="navbar_item">
+                    <a class="navbar_link" href="./nosotros.html">NOSOTROS</a>
+                </li>
+                <li class="navbar_item">
+                    <a class="navbar_link" href="./contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="margin">
+            <div>
+                <h1>Contáctanos</h1>
+            </div>
+            <form action="" method="post">
+                <ul>
+                    <li>
+                        <label class="form_item" for="name">Nombre:</label>
+                        <input class="form_input" type="text" id="name" name="user_name" />
+                    </li>
+                    <li>
+                        <label class="form_item" for="mail">Apellido:</label>
+                        <input class="form_input" type="email" id="mail" name="email" />
+                    </li>
+                    <li>
+                        <label class="form_item" for="name">Email:</label>
+                        <input class="form_input" type="text" id="name" name="user_name" />
+                    </li>
+                    <li>
+                        <label class="form_item" for="mail">Teléfono:</label>
+                        <input class="form_input" type="email" id="mail" name="email" />
+                    </li>
+                    <li>
+                        <label class="form_item" for="name">Asunto:</label>
+                        <input class="form_input" type="text" id="name" name="user_name" />
+                    </li>
+                    <li>
+                        <label class="form_item"  for="msg">Comentario:</label>
+                        <textarea class="form_coment" id="msg" name="user_message" placeholder="Escribe aqui tu comentario" maxlength="800"></textarea>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p class="pie">Copyright © 2022 - Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>

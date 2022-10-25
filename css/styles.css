@@ -1,0 +1,95 @@
+* {
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Dosis', sans-serif;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+}
+
+.navbar {
+    background-color: #476C9B;
+    margin-bottom: 40px;
+    display: block;
+    margin: auto;
+}
+
+.navbar_list {
+    text-align: center;
+}
+
+.navbar_item {
+    position: relative;
+    display: inline-block;
+    padding: 30px 70px;
+}
+
+.navbar_link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.margin {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.margin_img {
+    width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.parrafo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+h1 {
+    text-align: center;
+    margin: 60px 0;
+}
+
+li {
+    margin: 15px 0;
+}
+
+.form_item {
+    font-size: 20px;
+}
+
+.form_input {
+    border-radius: 6px;
+    border:1px solid black;
+    height: 20px;
+    margin: 10px 0;
+}
+
+.form_coment {
+    border-radius: 6px;
+    border:1px solid black;
+    height: 120px;
+    width: 600px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    margin-top: 50px;
+}
+
+.pie {
+    color: white;
+    text-align: center;
+    padding: 14px 0;
+}
